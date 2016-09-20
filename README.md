@@ -6,12 +6,12 @@ Code and trained models for the paper:
 
 <img src="img/fig_model.jpg" width="600">
 
-### Dependencies
+## Dependencies
 * Python 2.7
 * Theano >= 0.7
 * Lasagne 0.2.dev1
 
-### Datasets
+## Datasets
 * The two processed RC datasets:
     * CNN: [http://cs.stanford.edu/~danqi/data/cnn.tar.gz](http://cs.stanford.edu/~danqi/data/cnn.tar.gz) (546M)
     * Daily Mail: [http://cs.stanford.edu/~danqi/data/dailymail.tar.gz](http://cs.stanford.edu/~danqi/data/dailymail.tar.gz) (1.4G)
@@ -22,9 +22,9 @@ Code and trained models for the paper:
 * Word embeddings:
     * glove.6B.zip: [(download)](http://nlp.stanford.edu/data/glove.6B.zip)
 
-### Usage
+## Usage
 
-#### Training
+### Training
 ```
     THEANO_FLAGS=mode=FAST_RUN,device=gpu,floatX=float32
     python main.py --train_file /u/nlp/data/deepmind-qa/cnn/train.txt
@@ -33,23 +33,23 @@ Code and trained models for the paper:
 ```
 
 
-#### Hyper-prameters
+### Hyper-prameters
 * `relabeling`: default is True.
 * `hidden_size`: default is 128.
 * `bidir`: default is True.
-* `num_layers`: defauls is 1.
-* `rnn_type`: defauls is "gru".
-* `att_func`: defauls is "bilinear".
+* `num_layers`: default is 1.
+* `rnn_type`: default is "gru".
+* `att_func`: default is "bilinear".
 * `batch_size`: default is 32.
 * `num_epoches`: default is 100.
 * `eval_iter`: default is 100.
 * `dropout_rate`: default is 0.2.
-* `optimizer`: defauls is "sgd".
-* `learning_rate`: defauls is 0.1.
+* `optimizer`: default is "sgd".
+* `learning_rate`: default is 0.1.
 * `grad_clipping`: default is 10.
 
 
-### Reference
+## Reference
 ```
     @inproceedings{chen2016thorough,
         title={A Thorough Examination of the CNN/Daily Mail Reading Comprehension Task},
