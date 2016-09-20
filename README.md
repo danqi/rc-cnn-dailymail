@@ -17,10 +17,10 @@ Code and trained models for the paper:
     * Daily Mail: [http://cs.stanford.edu/~danqi/data/dailymail.tar.gz](http://cs.stanford.edu/~danqi/data/dailymail.tar.gz) (1.4G)
 
     The original datasets can be downloaded from [https://github.com/deepmind/rc-data](https://github.com/deepmind/rc-data) or [http://cs.nyu.edu/~kcho/DMQA/](http://cs.nyu.edu/~kcho/DMQA/).
-    Our processed ones are just simply concatenation of original data instances and only keeping document, question and answer for our inputs.
+    Our processed ones are just simply concatenation of all data instances and keeping document, question and answer only for our inputs.
 
 * Word embeddings:
-    * glove.6B.zip: [(download)](http://nlp.stanford.edu/data/glove.6B.zip)
+    * glove.6B.zip: [http://nlp.stanford.edu/data/glove.6B.zip](http://nlp.stanford.edu/data/glove.6B.zip)
 
 ## Usage
 
