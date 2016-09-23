@@ -1,4 +1,4 @@
-## CNN/Daily Mail Reading Comprehension Task
+# CNN/Daily Mail Reading Comprehension Task
 
 Code and trained models for the paper:
 
@@ -33,7 +33,7 @@ Code and trained models for the paper:
 ```
 
 
-### Hyper-prameters
+### Hyper-parameters
 * `relabeling`: default is True.
 * `hidden_size`: default is 128.
 * `bidir`: default is True.
@@ -58,3 +58,6 @@ Code and trained models for the paper:
         year={2016}
     }
 ```
+
+## License
+MIT
