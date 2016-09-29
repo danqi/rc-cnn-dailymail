@@ -219,7 +219,8 @@ def main(args):
                                             [train_y[k] for k in samples],
                                             args.batch_size)
                 logging.info('Train accuracy: %.2f %%' % eval_acc(test_fn, sample_train))
-                logging.info('Dev accuracy: %.2f %%' % eval_acc(test_fn, all_dev))
+                dev_acc = eval_acc(test_fn, all_dev)
+                logging.info('Dev accuracy: %.2f %%' % dev_acc)
                 if dev_acc > best_acc:
                     best_acc = dev_acc
                     logging.info('Best dev accuracy: epoch = %d, n_udpates = %d, acc = %.2f %%'
