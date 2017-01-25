@@ -1,6 +1,6 @@
 # CNN/Daily Mail Reading Comprehension Task
 
-Code and trained models for the paper:
+Code for the paper:
 
 [A Thorough Examination of the CNN/Daily Mail Reading Comprehension Task](https://arxiv.org/pdf/1606.02858v2.pdf).
 
